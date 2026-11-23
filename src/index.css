@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    color: #111111;
+    background-color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+.vromon-hero-wash {
+  background: linear-gradient(
+    180deg,
+    #f6c992 0%,
+    #fbe0bd 38%,
+    #fff4e6 74%,
+    #ffffff 100%
+  );
+}
+
+.vromon-peach-band {
+  background: linear-gradient(135deg, #fdf1e2 0%, #faebd7 50%, #fdf6ee 100%);
+}
