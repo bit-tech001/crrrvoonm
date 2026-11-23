@@ -72,13 +72,13 @@ export function HeroSection({
               <p className="font-display font-semibold text-lg">Vromon Flagship SUV</p>
             </div>
           ) : (
-            <div className="relative overflow-hidden">
+            <div className="relative flex justify-center">
               <img
-                src="/src/assets/images/hero_white_suv_1795456196354.jpg"
+                src="/src/assets/images/regenerated_image_1795460862011.png"
                 alt="Pearl-white Vromon flagship luxury SUV in studio lighting"
                 referrerPolicy="no-referrer"
                 onError={() => setHeroImgFailed(true)}
-                className="w-full aspect-[16/9] max-h-[370px] object-cover object-center [mask-image:radial-gradient(ellipse_90%_88%_at_50%_50%,#000_68%,transparent_100%)]"
+                className="w-full max-w-2xl max-h-[360px] object-contain object-center"
               />
             </div>
           )}

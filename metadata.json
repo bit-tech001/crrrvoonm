@@ -2,5 +2,7 @@
   "name": "Vromon Car Rental",
   "description": "Experience smooth drives with Vromon Car Rental. Browse our curated SUV, executive sedan, and electric fleet with instant online booking, transparent pricing, and 24/7 roadside support.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
